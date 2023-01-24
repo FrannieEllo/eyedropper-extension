@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "eyedropper!",
+    "description": "Get the HEX code for any color on your screen!",
+    "author": "Frannie Ello",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
