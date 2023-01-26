@@ -15,6 +15,8 @@ async function getColor() {
   if (result) {
     document.getElementById("mycolor").style.backgroundColor = result.sRGBHex;
     document.getElementById("hex").innerHTML = result.sRGBHex;
+    await navigator.clipboard.writeText(result.sRGBHex);
+    await navigator.clipboard.readText();
   }
 }
 
